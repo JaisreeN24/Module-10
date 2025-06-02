@@ -22,7 +22,16 @@ To write a Python program to:
 7. Print the updated list.
 
 ## 🧪 Program: 
-
+      from collections import deque
+      q = deque()
+      n=int(input())
+      for i in range(n):
+          q.append(input())
+      for i in range(2):
+          q.popleft()
+      print(q)
 ### Output:
+![image](https://github.com/user-attachments/assets/a5f7f8b3-983d-4764-bc9f-5af43fcd8061)
 
 ## Result:
+Thus, the program that simulates a queue using a list, removes the first two elements (FIFO order), and displays the remaining values in descending orders is executed and verified successfully.
