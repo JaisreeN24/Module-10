@@ -21,8 +21,19 @@ To write a Python program to:
 6. Display the updated list.
 
 ##  Program:
-Add Code Here
+      from collections import deque
+      q=deque()
+      n=int(input())
+      for i in range(n):
+          k=input()
+          q.append(k)
+      
+      q.popleft()
+      q.popleft()
+      print(q)
 
 ### Output:
+![image](https://github.com/user-attachments/assets/bbbf5d95-373f-4887-af3d-924b350ed505)
 
 ## Result:
+Thus, the program that demonstrates how to manage a list of strings and remove the last two elements (i.e., from the rear of the list) is executed and verified successfully.
