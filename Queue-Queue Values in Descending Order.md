@@ -23,15 +23,18 @@ To write a Python program to:
 
 ## 🧪 Program: 
       from collections import deque
-      q = deque()
+      que = []  
       n=int(input())
       for i in range(n):
-          q.append(input())
+          que.append(int(input()))  
       for i in range(2):
-          q.popleft()
-      print(q)
+          que.pop()
+      print(que)
+      
+   
 ### Output:
-![image](https://github.com/user-attachments/assets/a5f7f8b3-983d-4764-bc9f-5af43fcd8061)
+![image](https://github.com/user-attachments/assets/9388a77c-33d3-4610-a743-b08daa48c0c0)
+
 
 ## Result:
 Thus, the program that simulates a queue using a list, removes the first two elements (FIFO order), and displays the remaining values in descending orders is executed and verified successfully.
